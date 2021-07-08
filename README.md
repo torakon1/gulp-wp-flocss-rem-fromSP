@@ -1,4 +1,4 @@
-# gulp-wp-flocss-remの使い方
+# gulp-wp-flocss-rem-fromSPの使い方
 
 
 - ThemeNameはテーマ名に変更する
@@ -18,11 +18,10 @@
 ## 画像
 - assets内のimgフォルダ内で直書きする
 - 必要に応じてフォルダを作成してその中にいれる
-- 画像の変更があれば自動圧縮
-- assetsのimg内にアップロードすればそこで勝手に圧縮されてそこに上書きされる仕組み
+- 自動圧縮は削除。最後に圧縮作業をする
 
 ## 使い方
 - npm i でインストール → node_modulesが生成されればOK
 - gulp もしくは npx gulp で起動
 
-# gulp-wp-flocss-rem-fromSP
+
